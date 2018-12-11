@@ -38,7 +38,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dream | ${client.guilds.size} ${client.users.size} servers/user`,"http://twitch.tv/YouTube")
+client.user.setGame(`made by ╲⎝⧹PBGAMING | Five🌟⧸⎠╱")
 client.user.setStatus("dnd")
 });
 

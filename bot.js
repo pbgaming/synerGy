@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('message', message => {
-    var prefix = "$";
+    var prefix = "-";
    
         if (message.author.id === client.user.id) return;
         if (message.guild) {
@@ -9,7 +9,7 @@ client.on('message', message => {
         let args = message.content.split(' ').slice(1).join(' ');
     if(message.content.split(' ')[0] == prefix + 'epicbc') {
         if (!args[1]) {
-    message.channel.send("$epicbc <message>");
+    message.channel.send("-epicbc <message>");
     return;
     }
             message.guild.members.forEach(m => {

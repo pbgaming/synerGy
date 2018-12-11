@@ -7,9 +7,9 @@ client.on('message', message => {
         if (message.guild) {
        let embed = new Discord.RichEmbed()
         let args = message.content.split(' ').slice(1).join(' ');
-    if(message.content.split(' ')[0] == prefix + 'epicbc') {
+    if(message.content.split(' ')[0] == prefix + 'bc') {
         if (!args[1]) {
-    message.channel.send("-epicbc <message>");
+    message.channel.send("-bc <message>");
     return;
     }
             message.guild.members.forEach(m => {
